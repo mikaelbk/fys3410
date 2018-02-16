@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.2.15)  15 FEB 2018 17:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.2.15)  16 FEB 2018 20:25
 entering extended mode
 **./module1.tex
 (module1.tex
@@ -1629,33 +1629,67 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-<hcp.png, id=1, 220.825pt x 217.81375pt>
-File: hcp.png Graphic file (type png)
-<use hcp.png>
-Package pdftex.def Info: hcp.png  used on input line 15. on input line 15.
+<hcp_edited.png, id=1, 220.825pt x 217.81375pt>
+File: hcp_edited.png Graphic file (type png)
+<use hcp_edited.png>
+Package pdftex.def Info: hcp_edited.png  used on input line 16. on input line 1
+6.
 Package pdftex.def Info: Requested size: 220.82445pt x 217.8132pt on input line
- 15.
+ 16.
  [1
 
-{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./hcp.png>]
+{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./hcp_edite
+d.png>] [2]
+<lattice.png, id=21, 478.78876pt x 346.29375pt>
+File: lattice.png Graphic file (type png)
+<use lattice.png>
+Package pdftex.def Info: lattice.png  used on input line 40. on input line 40.
+Package pdftex.def Info: Requested size: 251.9989pt x 182.26135pt on input line
+ 40.
 
-(module1.aux) ) 
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+<reciprocal.png, id=22, 450.9648pt x 388.8126pt>
+File: reciprocal.png Graphic file (type png)
+<use reciprocal.png>
+Package pdftex.def Info: reciprocal.png  used on input line 59. on input line 5
+9.
+Package pdftex.def Info: Requested size: 251.9989pt x 217.27081pt on input line
+ 59.
+[3 <./lattice.png>]
+Overfull \hbox (24.28462pt too wide) in paragraph at lines 76--77
+\OT1/cmr/m/n/10.95 Since this re-quire-ment must hold for any of the re-cip-ro-
+cal lat-tice points/reflections
+ []
+
+[4 <./reciprocal.png>] [5] [6] (module1.aux) ) 
 Here is how much of TeX's memory you used:
- 11018 strings out of 495198
- 204272 string characters out of 3180954
- 235265 words of memory out of 3000000
- 14276 multiletter control sequences out of 15000+200000
- 536033 words of font info for 42 fonts, out of 3000000 for 9000
+ 11035 strings out of 495198
+ 204570 string characters out of 3180954
+ 241265 words of memory out of 3000000
+ 14288 multiletter control sequences out of 15000+200000
+ 536962 words of font info for 45 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,6n,38p,10403b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
-</home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts
-/cm/cmr10.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/
-cm/cmr12.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
-m/cmr17.pfb>
-Output written on module1.pdf (1 page, 59726 bytes).
+ 41i,11n,45p,10403b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
+</home/mikael/.miktex/texmfs/inst
+all/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/mikael/.miktex/texmfs/inst
+all/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/mikael/.miktex/texmfs/inst
+all/fonts/type1/public/amsfonts/cm/cmbx8.pfb></home/mikael/.miktex/texmfs/insta
+ll/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/mikael/.miktex/texmfs/insta
+ll/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/mikael/.miktex/texmfs/insta
+ll/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/mikael/.miktex/texmfs/instal
+l/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/mikael/.miktex/texmfs/install
+/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/mikael/.miktex/texmfs/install/
+fonts/type1/public/amsfonts/cm/cmr17.pfb></home/mikael/.miktex/texmfs/install/f
+onts/type1/public/amsfonts/cm/cmr6.pfb></home/mikael/.miktex/texmfs/install/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb></home/mikael/.miktex/texmfs/install/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb></home/mikael/.miktex/texmfs/install/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on module1.pdf (6 pages, 372795 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
+ 79 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
