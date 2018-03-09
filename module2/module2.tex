@@ -1,0 +1,41 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{physics}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+
+\author{Mikael B. Kiste}
+\title{FYS3410 - Module II}
+
+\begin{document}
+\maketitle
+
+\begin{section}*2
+We are presented with the situation of a one-dimensional system of atoms. We would like to know the density of states while using periodic boundary conditions. Let N be the number of atoms in such that atom number 0 and N is the same with the periodic boundary conditions. The distance between each atom is $a$ so the total length of the chain of atoms becomes $L=Na$.
+	\begin{subsection}*{a)}
+		We describe the phonons by letting the atoms vibrate similarly to a plane wave. The displacement of atom $s$ is described as 
+		$$ U_s = U_0 e^{ikas-i\omega t} $$
+		Using now the periodic boundary conditions we can get a quantization of the wavenumber
+		\begin{align*}
+			U_s = U_{s+N}\\
+			U_0e^{ikas}e^{-i\omega t} = U_0e^{ika(s+N)}e^{-i\omega t}\\
+			e^{ikas} = e^{ikas}e^{ikaN}\\
+			e^{ikaN} = 1
+		\end{align*}
+		This is only true when
+		\begin{align*}
+			kaN=2 \pi n,\qquad n\in \mathbb{Z}\\
+			k = \frac{2\pi n}{Na}
+		\end{align*}
+		There is a physical restriction on the $n$'s. From the relation between wavelength and wavenumber we have
+		\begin{align*}
+			\lambda = \frac{2\pi}{k}\\
+			\lambda = \frac{aN}{n}
+		\end{align*}
+		For the first mode $n=1$ the wavelength is $L$, then there are $N$ number of modes until $n=N$ and the wavelength becomes $a$. These are the only physically distinct modes we can have as wavelengths outside this region can not be described distinctly without more atoms (in a similar fashion as with Umklapp scattering).
+		Since the $k$'s are uniformly distributed with a distance $\frac{2\pi}{Na}$ the DENSITY (number of states pr. distance) becomes
+		$$D(k) = \frac{Na}{2\pi} = \frac{L}{2\pi}$$
+	\end{subsection}
+\end{section}
+
+\end{document}
