@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.2.15)  9 MAR 2018 15:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.2.15)  9 MAR 2018 18:44
 entering extended mode
 **./module2.tex
 (module2.tex
@@ -1523,55 +1523,177 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
+(/home/mikael/.miktex/texmfs/install/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count188
+\float@exts=\toks21
+\float@box=\box44
+\@float@everytoks=\toks22
+\@floatcapt=\box45
+)
+(/home/mikael/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/home/mikael/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks23
+)
+(/home/mikael/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/mikael/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/home/mikael/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/home/mikael/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen143
+\Gin@req@width=\dimen144
+)
 (module2.aux)
 \openout1 = `module2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Try loading font information for U+msa on input line 11.
- (/home/mikael/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+
+(/home/mikael/.miktex/texmfs/install/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count189
+\scratchdimen=\dimen145
+\scratchbox=\box46
+\nofMPsegments=\count190
+\nofMParguments=\count191
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count192
+\MPscratchDim=\dimen146
+\MPnumerator=\count193
+\makeMPintoPDFobject=\count194
+\everyMPtoPDFconversion=\toks25
+) (/home/mikael/.miktex/texmfs/install/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/home/mikael/.miktex/texmfs/install/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/home/mikael/.miktex/texmfs/install/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/home/mikael/.miktex/texmfs/install/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/home/mikael/.miktex/texmfs/install/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/home/mikael/.miktex/texmfs/install/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/home/mikael/.miktex/texmfs/install/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/home/mikael/.miktex/texmfs/install/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/home/mikael/.miktex/texmfs/install/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/home/mikael/.miktex/texmfs/install/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/home/mikael/.miktex/texmfs/install/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 13.
+
+(/home/mikael/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 11.
+LaTeX Font Info:    Try loading font information for U+msb on input line 13.
 
 (/home/mikael/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] [2] (module
-2.aux) ) 
+{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
+<2a.pdf, id=15, pagebox=cropbox, 578.16pt x 433.62pt>
+File: 2a.pdf Graphic file (type pdf)
+<use 2a.pdf>
+Package pdftex.def Info: 2a.pdf  used on input line 42. on input line 42.
+Package pdftex.def Info: Requested size: 276.00105pt x 206.9972pt on input line
+ 42.
+ [2 <./2a.pdf>]
+<2b.pdf, id=40, pagebox=cropbox, 578.16pt x 433.62pt>
+File: 2b.pdf Graphic file (type pdf)
+<use 2b.pdf>
+Package pdftex.def Info: 2b.pdf  used on input line 70. on input line 70.
+Package pdftex.def Info: Requested size: 276.00105pt x 206.9972pt on input line
+ 70.
+ [3 <./2b.pdf>]
+<debye_graph.png, id=68, 597.23125pt x 464.73625pt>
+File: debye_graph.png Graphic file (type png)
+<use debye_graph.png>
+Package pdftex.def Info: debye_graph.png  used on input line 85. on input line 
+85.
+Package pdftex.def Info: Requested size: 276.00105pt x 214.77405pt on input lin
+e 85.
+ [4 <./debye_graph.png>] [5] (module2.aux) ) 
 Here is how much of TeX's memory you used:
- 9848 strings out of 495198
- 186674 string characters out of 3180954
- 218303 words of memory out of 3000000
- 13158 multiletter control sequences out of 15000+200000
+ 11110 strings out of 495198
+ 205701 string characters out of 3180954
+ 239710 words of memory out of 3000000
+ 14350 multiletter control sequences out of 15000+200000
  537827 words of font info for 52 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 39i,8n,38p,10406b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
-</home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmm
-i7.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12
-.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.
-pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pf
-b></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb
-></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm1
-0.pfb>
-Output written on module2.pdf (2 pages, 98489 bytes).
+ 41i,12n,38p,10406b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
+</home/mikael/.miktex/texmfs/instal
+l/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/mikael/.miktex/texmfs/instal
+l/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/mikael/.miktex/texmfs/instal
+l/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/mikael/.miktex/texmfs/instal
+l/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/mikael/.miktex/texmfs/install
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/mikael/.miktex/texmfs/install/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></home/mikael/.miktex/texmfs/install/f
+onts/type1/public/amsfonts/cm/cmr17.pfb></home/mikael/.miktex/texmfs/install/fo
+nts/type1/public/amsfonts/cm/cmr5.pfb></home/mikael/.miktex/texmfs/install/font
+s/type1/public/amsfonts/cm/cmr7.pfb></home/mikael/.miktex/texmfs/install/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></home/mikael/.miktex/texmfs/install/fonts/
+type1/public/amsfonts/cm/cmsy7.pfb></home/mikael/.miktex/texmfs/install/fonts/t
+ype1/public/amsfonts/symbols/msbm10.pfb>
+Output written on module2.pdf (5 pages, 210221 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
+ 112 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
