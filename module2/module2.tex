@@ -40,7 +40,7 @@ We are presented with the situation of a one-dimensional system of atoms. We wou
 
 		\begin{figure}[H]
 			\includegraphics[width = 0.8\linewidth]{2a.pdf}
-			\center
+			\centering
 		\end{figure}
 	\end{subsection}
 	\begin{subsection}*{b)}
@@ -68,7 +68,7 @@ We are presented with the situation of a one-dimensional system of atoms. We wou
 		\end{align*}
 		\begin{figure}[H]
 			\includegraphics[width = 0.8\linewidth]{2b.pdf}
-			\center
+			\centering
 		\end{figure}
 	\end{subsection}
 	\begin{subsection}*{c)}
@@ -83,7 +83,7 @@ We are presented with the situation of a one-dimensional system of atoms. We wou
 		In the graph below is the predicted heat capacity as a function of temperature in the Debye model.
 		\begin{figure}[H]
 			\includegraphics[width = 0.8\linewidth]{debye_graph.png}
-			\center
+			\centering
 		\end{figure}
 		For the smaller temperatures the Debye model predicts a $T^3$ dependancy for the heat capacity which corresponds well to measured trends. The model struggles however at some mid range temperatures, where it is not very accurate.
 	\end{subsection}
@@ -101,17 +101,22 @@ We are presented with the situation of a one-dimensional system of atoms. We wou
 \end{section}
 
 \begin{section}*6
-	The table below show temperature dependencies for heat capacity, $C_V$, phonon mean free path, $\Lambda$, and the thermal conductivity coefficient, $\kappa$. This is in a similar fashion that was discussed in excercise 3.
+	The table below shows temperature dependencies for heat capacity, $C_V$, phonon mean free path, $\Lambda$, and the thermal conductivity coefficient, $\kappa$. This is in a similar fashion that was discussed in excercise 3.\newline
 	\begin{center}
 	\begin{tabular}{ | l | l | l | l | }
 		\hline
-		1 & $C_V$ & $\Lambda$ & $\kappa$ \\ \hline
+		 & $C_V$ & $\Lambda$ & $\kappa$ \\ \hline
 		Low temperature & $\propto T^3$ & $\Lambda \rightarrow D$ & $\propto T^3$ \\ \hline
 		High temperature & $3k_b$ & $\propto T^{-1}$ & $\propto T^{-1}$\\
 		\hline
 	\end{tabular}
 	\end{center}
-	Here I have not taken into consideration the Umklapp process that changes the mean free path of the phonons at higher temperatures. In  Umklapp scattering the collision between two phonons as seen in k-space will become a new phonon that is the vector sum of the previous ones. If the new phonon is outside the Brillouin zone it is physically equivalent to some phonon within the Brilloin zone and can be transformed into it by the addition of some reciprocal lattice vector G. In such a process there is a loss of crystal momentum but it is important to note that this is only a pseudomomentum. 
+	Here I have not taken into consideration the Umklapp process that changes the mean free path of the phonons at higher temperatures. In  Umklapp scattering the collision between two phonons as seen in k-space will become a new phonon that is the vector sum of the previous ones. If the new phonon is outside the Brillouin zone it is physically equivalent to some phonon within the Brilloin zone and can be transformed into it by the addition of some reciprocal lattice vector G. In such a process there is a loss of crystal momentum but it is important to note that this is only a pseudomomentum.
+	\begin{figure}[H]
+		\includegraphics[width = 0.8\linewidth]{kappa.png}
+		\centering
+		\caption{$k$ as a function of temperature with the low temperature model and two high temperature models}
+	\end{figure}
 \end{section}
 
 \end{section}

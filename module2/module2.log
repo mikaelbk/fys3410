@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.2.15)  9 MAR 2018 18:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.2.15)  9 MAR 2018 19:18
 entering extended mode
 **./module2.tex
 (module2.tex
@@ -1669,31 +1669,42 @@ Package pdftex.def Info: debye_graph.png  used on input line 85. on input line
 85.
 Package pdftex.def Info: Requested size: 276.00105pt x 214.77405pt on input lin
 e 85.
- [4 <./debye_graph.png>] [5] (module2.aux) ) 
+ [4 <./debye_graph.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+<kappa.png, id=72, 1082.0425pt x 756.8275pt>
+File: kappa.png Graphic file (type png)
+<use kappa.png>
+Package pdftex.def Info: kappa.png  used on input line 116. on input line 116.
+Package pdftex.def Info: Requested size: 276.00105pt x 193.04042pt on input lin
+e 116.
+[5 <./kappa.png>] (module2.aux) ) 
 Here is how much of TeX's memory you used:
- 11110 strings out of 495198
- 205701 string characters out of 3180954
+ 11114 strings out of 495198
+ 205760 string characters out of 3180954
  239710 words of memory out of 3000000
- 14350 multiletter control sequences out of 15000+200000
+ 14354 multiletter control sequences out of 15000+200000
  537827 words of font info for 52 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  41i,12n,38p,10406b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
-</home/mikael/.miktex/texmfs/instal
-l/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/mikael/.miktex/texmfs/instal
-l/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/mikael/.miktex/texmfs/instal
-l/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/mikael/.miktex/texmfs/instal
-l/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/mikael/.miktex/texmfs/install
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/mikael/.miktex/texmfs/install/
-fonts/type1/public/amsfonts/cm/cmr12.pfb></home/mikael/.miktex/texmfs/install/f
-onts/type1/public/amsfonts/cm/cmr17.pfb></home/mikael/.miktex/texmfs/install/fo
-nts/type1/public/amsfonts/cm/cmr5.pfb></home/mikael/.miktex/texmfs/install/font
-s/type1/public/amsfonts/cm/cmr7.pfb></home/mikael/.miktex/texmfs/install/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></home/mikael/.miktex/texmfs/install/fonts/
-type1/public/amsfonts/cm/cmsy7.pfb></home/mikael/.miktex/texmfs/install/fonts/t
-ype1/public/amsfonts/symbols/msbm10.pfb>
-Output written on module2.pdf (5 pages, 210221 bytes).
+</home/mikael/.miktex/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmbx12.pfb></home/mikael/.miktex/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmex10.pfb></home/mikael/.miktex/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb></home/mikael/.miktex/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmmi7.pfb></home/mikael/.miktex/texmfs/install/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></home/mikael/.miktex/texmfs/install/fonts/type1
+/public/amsfonts/cm/cmr12.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/
+public/amsfonts/cm/cmr17.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/p
+ublic/amsfonts/cm/cmr5.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/pub
+lic/amsfonts/cm/cmr7.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/publi
+c/amsfonts/cm/cmsy7.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public
+/amsfonts/symbols/msbm10.pfb>
+Output written on module2.pdf (5 pages, 257818 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
+ 113 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
