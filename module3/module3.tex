@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{physics}
+\usepackage{bm}
+
+\author{Mikael B. Kiste}
+\title{FYS3410 - Module III}
+
+\begin{document}
+\maketitle
+
+\section*{2. FEFG and }
+\emph{Introduce periodic (Born-von Karman) boundary conditions and derive the density of states (DOS) for FEFG in a finite 3D sample. Calculate values of $\varepsilon_F$, $k_F$, $v_F$ and $T_F$, i.e. Fermi energy, wavevector, velocity and temperature, respectively, for alkali metals. Explain the trend.}\\
+
+A FEFG in 3D can at first approximation be described by the free particle Schrödinger equation in three dimensions
+\begin{equation}
+	-\frac{\hbar^2}{2m} \nabla^2 \bm{\psi_k}(r) = \bm{\epsilon_k}\bm{\psi_k}(\bm{r})
+	\label{SE}
+\end{equation}
+
+Confining the electrons to a cube whose sides have length $L$ we get the following solution for the wavefunctions
+\begin{equation}
+	\bm{\psi}_n(\bm{r}) = A\sin(\pi n_xx/L)\sin(\pi n_yy/L)\sin(\pi n_zz/L), \quad n_x,n_y,n_z \in \mathbb{Z}
+\end{equation}
+
+Next we want to apply Born-von Karman boundary conditions. The Born-von Karman boundary condition can be represented mathematically as certain restrictions on the wavefunction in a crystal under the assumption that the wavefunction is periodic. The condition can be stated as
+	\begin{equation}
+		\bm{\psi}(x+L,y,z)=\bm{\psi}(x,y,z)
+		\label{condition} 
+	\end{equation}
+For the $x$-direction and similarly for $y$ and $z$.
+
+This is a classical particle in box problem that we know from quantum mechanics. The boundary conditions gives us the familiar solution of
+\begin{equation}
+	\bm{\psi_k}(\bm{r})e^{i\bm{k}\cdot\bm{r}}
+	\label{pwave}
+\end{equation}
+With the special requirement that the wavevectors are on the form
+$$ \bm{k}_x = \frac{2n_x\pi}{L} $$
+
+It is easily shown that this satisfies equation \eqref{condition}
+\begin{align*}
+	\exp(i\bm{k}\cdot\bm{r}) = \exp(i\bm{k}\cdot(\bm{r}+L\bm{e}_x))\\
+	\exp(i\bm{k}\cdot\bm{r}) = \exp(i\bm{k}\cdot\bm{r}) \cdot \exp(iL\bm k_x)\\
+	\exp(iL\bm k_x) = 1 \implies Lk_x = 2n_x\pi
+\end{align*}
+
+Substituting equation \eqref{pwave} into \eqref{SE} we get an expression for the energies related to each wavevector
+\begin{equation}
+ 	2
+\end{equation} 
+
+
+\section*{3. Temperature dependence of energy and chemical potential for the Fermi-Dirac distribution}
+
+\section*{4. DOS in 1D \& 2D FEFG}
+
+\section*{ 6. k-space considerations of some cubic lattices }
+
+\end{document}

@@ -6,7 +6,7 @@
 \usepackage{float}
 \usepackage{graphicx}
 
-\author{Mikael B. Kiste}
+\author{Kandidatnummer 15010}
 \title{FYS3410 - Module II}
 
 \begin{document}
@@ -96,7 +96,26 @@ We are presented with the situation of a one-dimensional system of atoms. We wou
 
 \begin{section}*{4}
 	
-
+The Debye frequency is a cut off in the density of states for some angular frequency when it reaches the smallest size of the lattice.
+To get the density of states we need the area of the unit cell and fermi circle.
+For the two dimensional hexagonal lattice we get a parallellogram for the unit cell with area
+	\begin{align*}
+		A_p = a h\\
+		A_p = a^2\frac{\sqrt{3}}{2}
+	\end{align*}
+And the fermi circle area is
+$$A_f = \pi k^2$$
+The number of modes should be the fraction between these
+	\begin{align*}
+		N = \frac{A_f}{A_p}\\
+		N = \frac{2\pi k^2}{a^2\sqrt{3}}
+	\end{align*}
+The Debye assumption is $k=\frac{\omega}{v}$
+	$$N = \frac{2\pi}{a^2\sqrt{3}}\qty(\frac{\omega}{v})^2 $$
+	Solving for the Debye frequency we get
+	\begin{align*}
+		\omega = \sqrt{\qty(\frac{a^2\sqrt{3}v^2N}{2\pi})} = 
+	\end{align*}
 
 \end{section}
 
