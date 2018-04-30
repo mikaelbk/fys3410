@@ -6,7 +6,7 @@
 \usepackage{physics}
 \usepackage{bm}
 
-\author{Mikael B. Kiste}
+\author{Kandidatnummer: 15010}
 \title{FYS3410 - Module III}
 
 \begin{document}
@@ -17,7 +17,7 @@
 
 A FEFG in 3D can at first approximation be described by the free particle Schrödinger equation in three dimensions
 \begin{equation}
-	-\frac{\hbar^2}{2m} \nabla^2 \bm{\psi_k}(r) = \bm{\epsilon_k}\bm{\psi_k}(\bm{r})
+	-\frac{\hbar^2}{2m} \nabla^2 \bm{\psi_k}(r) = \epsilon_{\bm{k}}\bm{\psi_k}(\bm{r})
 	\label{SE}
 \end{equation}
 
@@ -49,9 +49,29 @@ It is easily shown that this satisfies equation \eqref{condition}
 \end{align*}
 
 Substituting equation \eqref{pwave} into \eqref{SE} we get an expression for the energies related to each wavevector
+
 \begin{equation}
- 	2
-\end{equation} 
+	\epsilon_{\bm{k}} = \frac{\hbar^2}{2m}\bm{k}^2 = \frac{\hbar^2}{2m}(k_x^2+k_y^2+k_z^2)
+\end{equation}
+
+Since energy and wavevector are related in this way, the energy of the possible states in k-space increase radially from the zero-vector in k-space. In the ground state of a system of N free electrons we therefore expect the occupied states to be distributed in a sphere in k-space so as to minimze the energy. The magnitude of the radius is $k_F$ and the related energy is called the Fermi energy
+
+\begin{equation}
+	\epsilon_F = \frac{\hbar^2}{2m}k_F^2
+\end{equation}
+
+We can now derive an equation for the number of different orbitals, making sure to account for the two possible electrons in each state. We divide the volume of the sphere with the volume that a each state occupies in k-space (inverse distribution density)
+
+\begin{align}
+	2*\frac{ 4\pi k_F/3 }{(2\pi/L)^3} = \frac{V}{3\pi^2}k_F^3 = N\\
+	N = \frac{V}{3\pi^2}\qty(\frac{2m\epsilon}{\hbar^2})^{3/2}
+\end{align}
+
+Finally we now have what we need to find the density of states
+
+\begin{equation}
+	D(\epsilon) \equiv \dv{N}{\epsilon} = \frac{V}{2\pi^2}\qty(\frac{2m}{\hbar^2})^{3/2}\sqrt{\epsilon}
+\end{equation}
 
 
 \section*{3. Temperature dependence of energy and chemical potential for the Fermi-Dirac distribution}

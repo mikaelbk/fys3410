@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6650) (preloaded format=pdflatex 2018.4.16)  27 APR 2018 18:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6650) (preloaded format=pdflatex 2018.4.16)  30 APR 2018 15:51
 entering extended mode
 **./module3.tex
 (module3.tex
@@ -1577,13 +1577,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 Here is how much of TeX's memory you used:
  10217 strings out of 495198
  190602 string characters out of 3180954
- 220144 words of memory out of 3000000
+ 221144 words of memory out of 3000000
  13500 multiletter control sequences out of 15000+200000
  543392 words of font info for 70 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  39i,10n,45p,10400b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
 </home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts
+/cm/cmex10.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts
 /cm/cmmi10.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts
 /cm/cmmi7.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/
 cm/cmmib10.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts
@@ -1596,9 +1597,9 @@ ts/cm/cmr7.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts
 /cm/cmsy7.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/
 cm/cmti10.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/
 symbols/msbm10.pfb>
-Output written on module3.pdf (2 pages, 143869 bytes).
+Output written on module3.pdf (2 pages, 155623 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
