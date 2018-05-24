@@ -15,10 +15,22 @@
 
 \section*{7. }
 A truncated taylor series for the energy as a function of wavevector can be stated as
-$$ E(k) = E(K_0) + \dv{E}{k} (k-k_0) + \tfrac{1}{2}\dv[2]{E}{k} (k-k_0)^2 + ...$$
+$$ \epsilon(k) = \epsilon(K_0) + \dv{\epsilon}{k} (k-k_0) + \tfrac{1}{2}\dv[2]{\epsilon}{k} (k-k_0)^2 + ...$$
 We are looking at $k$ in the vicinity of maxima/minima, the first derivative is close to zero and further terms can be neglected as they diminish.
 The first term is constant and does not influence the shape or form of the function.
 Therefore we can take only the second derivative term into consideration.
-We
+We also have an expression given through the dispersion relation
+
+$$ \epsilon(k) = \frac{\hbar^2k^2}{2m} $$
+
+Now combining the two we can solve for the mass
+
+\begin{align*}
+	\frac{\hbar^2k^2}{2m} &= \tfrac{1}{2}\dv[2]{\epsilon}{k} (k-k_0)^2\\
+	\frac{\hbar^2k^2}{m} &= \dv[2]{\epsilon}{k}k^2\\
+	m &= \hbar^2\qty(\dv[2]{\epsilon}{k})^{-1}
+\end{align*}
+
+
 
 \end{document}
