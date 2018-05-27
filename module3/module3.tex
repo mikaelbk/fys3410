@@ -5,6 +5,7 @@
 \usepackage{amssymb}
 \usepackage{physics}
 \usepackage{bm}
+\usepackage{graphicx}
 
 \author{Kandidatnummer: 15010}
 \title{FYS3410 - Module III}
@@ -73,11 +74,49 @@ Finally we now have what we need to find the density of states
 	D(\epsilon) \equiv \dv{N}{\epsilon} = \frac{V}{2\pi^2}\qty(\frac{2m}{\hbar^2})^{3/2}\sqrt{\epsilon}
 \end{equation}
 
+\newpage
+Using these relations we can calculate different values for different elements. In the figure are shown for the alkali metals Li, Na, K, Rb and Cs (in order). 
 
+\begin{figure}[H]
+	\includegraphics[width = 0.7\linewidth]{4plot.pdf}
+	\centering
+	\caption{Four plots showing the trends for fermi energy, wavevector, velocity and temperature for the alkali metals}
+\end{figure}
+
+\newpage
 \section*{3. Temperature dependence of energy and chemical potential for the Fermi-Dirac distribution}
+\subsection*{a)}
+At zero temperature we have the following expression for Gibbs energy
+\begin{equation*}
+	G_{T=0}=N\mu=E+pV
+\end{equation*}
+In the calculations we need to use the expression for the energy
+\begin{equation}
+	E(N) = \frac{\hbar^2}{2m_e}\qty(\frac{3\pi^2N}{V})^{2/3}
+\end{equation}
+We want to insert the pressure and we can get this by volume derivating the energy.
+\begin{align*}
+	p &= -\qty(\pdv{\epsilon(N)}{V})\\
+	&=-\pdv{}{V}\qty( \frac{\hbar^2}{2m_e}\qty(\frac{3\pi^2N}{V})^{2/3}  )\\
+	&= \frac{\hbar^2}{2m_e}(3\pi^2N)^{2/3} \tfrac{2}{3}V^{-5/3}
+\end{align*}
+Skipping a few steps of algebra we see that this term looks very similar to the energy and we can abbreviate a lot by introducing this back in. The Gibbs energy becomes
+\begin{equation*}
+	G = E + \tfrac{2}{3}E = \tfrac{2}{5}E
+\end{equation*}
 
+Now we want an expression for the chemical potential where we can insert the result
+\begin{align*}
+	\mu = \frac{1}{N}(E+pV)\\
+	\mu = \frac{5}{3}\frac{E}{N}
+\end{align*}
+
+The assignment gave another hint as to how to find E; integrating the product of the density of states, fermi dirac distribution and energy. 
+
+\newpage
 \section*{4. DOS in 1D \& 2D FEFG}
 
+\newpage
 \section*{ 6. k-space considerations of some cubic lattices }
 
 \end{document}

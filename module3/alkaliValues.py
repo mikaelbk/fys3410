@@ -28,18 +28,22 @@ print(v(k(c))*1E-8*1E2)
 elCon = 1E28*array( [4.7,2.65,1.4,1.15,0.91] )
 
 subplot(2,2,1)
+title("k vector $k_F$")
 plot(k(elCon),'bo')
 plot(k(elCon))
 
 subplot(2,2,2)
+title("energy $\epsilon_F$")
 plot(e(k(elCon)),'bo')
 plot(e(k(elCon)))
 
 subplot(2,2,3)
+title("velocity $v_F$")
 plot(v(k(elCon)),'bo')
 plot(v(k(elCon)))
 
 subplot(2,2,4)
+title("temperature $T_F$")
 plot(t(e(k(elCon))),'bo')
 plot(t(e(k(elCon))))
-show()
+savefig("4plot.pdf")
