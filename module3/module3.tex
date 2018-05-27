@@ -133,13 +133,40 @@ With unitless variables this is what the fermi dirac distribution looks like. It
 	\caption{The fermi dirac distribution for various temperatures}
 \end{figure}
 
-\subsection{c)}
-
-
 \newpage
 \section*{4. DOS in 1D \& 2D FEFG}
 
+\subsection*{a)}
+\begin{align*}
+	DOS_{2D}(E)dE = DOS_{2D}(k)dk\\
+	DOS_{2D}(E) = \frac{DOS_{2D}(k)}{\dv{E}{k}}\\
+	= \frac{k}{L_z\pi}\frac{2m}{\hbar^2}\frac{1}{2k}
+\end{align*}
+
+\subsection*{b)}
+\begin{align*}
+	DOS_{1D}(E) = \frac{DOS_{1D}(k)}{\dv{E}{k}}\\
+	= \frac{1}{\pi}\frac{1}{L_y L_z}\frac{2m}{\hbar^2}\frac{1}{2k}\\
+	= \frac{m}{\hbar^2\pi}\frac{1}{L_y L_z} \frac{1}{k}\\
+	= \qty(\frac{m}{E})^{1/2}\frac{1}{2\pi\hbar}\frac{1}{L_y L_z}
+\end{align*}
+
+\subsection*{c)}
+A plot of the DOS for 1D, 2D, and 3D is useful when comparing the different situations.
+\begin{figure}[H]
+	\includegraphics[width = 0.7\linewidth]{dos.png}
+	\centering
+	\caption{Density of states as function of energy for 1D (green), 2D (red) and 3D (blue)}
+\end{figure}
+
+When the dimensionality changes we don't no longer have a uniformity of states distributed in k-space. The blue line in the 3D example illustrates how the number of allowed states pr volume increases when you allow higher and higher energies. This is essentially a sphere that grows in k-space where the sphere radius is the energy. For the 2 dimensional case, however, the states are distributed like planes in k-space, with a big gap between them. Whenever the energy becomes enough to reach the new level the DOS makes a jump before being constant again. It is constant because the introduction of new states is just as rapid as the increase in the spheres volume so that the density remains the same. For the 1D case the available states are are lines in k-space. The geometry of the states' distribution now mean that for each jump in level only some new states are introduced, at a rate slower than the expanding sphere, so the density of states decreses (explicitly with $E^{-1/2}$. That is until the next jump where it follows the same pattern. Quantum wells are analoguous to the 2D example, as we then have constraint in one direction. While quantum wires follows the 1D situaton where the constraint is in two directions.
+
+\subsection*{d)}
+The direction of the constraint is arbitrary. It could for example be in the y-direction or the z-direction. But two different configurations of constraint does not change the physics of the system (as the choice of coordinate system is arbitrary). They must therefore lead to the same energy and we get a degeneracy in the states. 
+
 \newpage
 \section*{ 6. k-space considerations of some cubic lattices }
+\subsection{a)}
+
 
 \end{document}
