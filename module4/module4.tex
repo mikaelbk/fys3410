@@ -70,7 +70,7 @@ By using the fact that $E(k) = ak^2$ we can do a derivation and get the answer
 experimental values for the effective masses (in unit of the free electron mass) are: 0.067, 0.082,
 and 0.45 for electrons in the conduction band as well as light and heavy holes at the top of the
 valence bands, respectively. Compute the corresponding energy dispersion relations and sketch
-the band structure of GaAs in the vicinity of $\gamma$ point. What is the origin to have "light" and
+the band structure of GaAs in the vicinity of $\Gamma$ point. What is the origin to have "light" and
 "heavy" holes?}
 
 \begin{figure}
@@ -95,5 +95,52 @@ Using this, simples calculations gives us the expressions that are plotted.
 	E_3(k) = E(k_0)-0.47(k-\Gamma)^2
 \end{align*}
 An illustration of the different trends can be seen in the figure above.
+
+\newpage
+\section*{5}
+
+\emph{Consider the carrier concentration evolution as a function of temperature in $10^17P/cm^3$ homogeneously doped Si. Choose several characteristic temperature limits, specifically low, intermediate, and high – corresponding to the donor freezing out, full donor activation, and overtaking by intrinsic carriers, respectively. For these limits, compute (a) the equilibrium concentration for electrons and holes;
+(b) the $E_F$ position relative to $E_i$.
+Plot the electron concentration and $E_F$ position as a function of temperature ($1/T$).}\\
+
+Convenient values for the temperature in the different domains could be
+\begin{align*}
+	T_1 = 20K\\
+	T_2 = 300K\\
+	T_3 = 1200K
+\end{align*}
+
+\subsection*{a)}
+
+In the low temperature domain it is mostly donor electrons that contribute as charge carriers. The carrier concentration are mostly from extrinsic effects and we can use the following formula
+\begin{equation}
+	n = N_Ce^{-E_{donor}/k_bT}=2.62\times10^7
+\end{equation}
+And we can use the law of mass action to find the concentration
+\begin{equation*}
+	p = \frac{n_i^2}{n}
+\end{equation*}
+At the intermediate temperatures we have two effects that come into play. The higher temperature means that many of the donor electrons has been excited to the conduction band and the pool of such electrons available begins to deplete. In addition we can get a contribution even from the intrinsic valence electrons that now have enough energy to be excited as well, this effect however is negligibly small in comparison.
+The carrier concentration stays relatively constant with temperature $n_d=N_d$.
+
+At even higher temperatures the intrinsic effect becomes prominent and we need a new description of the concentration
+\begin{equation*}
+	n = N_ie^{-E_g/2k_bT} = 2\times 10^{19}
+\end{equation*}
+
+\subsection*{b)}
+The fermi level moves depending on the relative concentration of electrons in the valence and conduction band.
+We can use the following expression to get an idea of how the energy levels relate
+\begin{equation*}
+	E_f - E_i = k_bT\ln\qty(\frac{n_0}{n_i}) = 0.0121eV
+\end{equation*}
+At the intermediate temperature domain we get $E_f-E_i = 0.407eV$
+
+At high temperatures the solids carriers are mainly intrinsic and the difference goes to zero as the fermi level goes towards $E_i$
+
+\begin{figure}
+	\includegraphics[width = 0.7\linewidth]{concentration.png}
+	\centering
+\end{figure}
 
 \end{document}
