@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6700) (preloaded format=pdflatex 2018.4.16)  27 MAY 2018 21:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6700) (preloaded format=pdflatex 2018.4.16)  27 MAY 2018 21:53
 entering extended mode
 **./module3.tex
 (module3.tex
@@ -1569,18 +1569,18 @@ File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 (module3.aux)
 \openout1 = `module3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 (/home/mikael/.miktex/texmfs/install/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1647,17 +1647,17 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 14.
+LaTeX Font Info:    Try loading font information for U+msa on input line 15.
 
 (/home/mikael/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 14.
+LaTeX Font Info:    Try loading font information for U+msb on input line 15.
 
 (/home/mikael/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
@@ -1667,37 +1667,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 <4plot.pdf, id=22, pagebox=cropbox, 578.16pt x 433.62pt>
 File: 4plot.pdf Graphic file (type pdf)
 <use 4plot.pdf>
-Package pdftex.def Info: 4plot.pdf  used on input line 81. on input line 81.
+Package pdftex.def Info: 4plot.pdf  used on input line 82. on input line 82.
 Package pdftex.def Info: Requested size: 241.49895pt x 181.12006pt on input lin
-e 81.
+e 82.
 
-[3 <./4plot.pdf>] [4] [5] [6] (module3.aux) ) 
+[3 <./4plot.pdf>] [4]
+<fdd.png, id=77, 892.33376pt x 701.62125pt>
+File: fdd.png Graphic file (type png)
+<use fdd.png>
+Package pdftex.def Info: fdd.png  used on input line 131. on input line 131.
+Package pdftex.def Info: Requested size: 241.49895pt x 189.8792pt on input line
+ 131.
+ [5 <./fdd.png>] [6] [7] (module3.aux) ) 
 Here is how much of TeX's memory you used:
- 11412 strings out of 495198
- 208725 string characters out of 3180954
- 241199 words of memory out of 3000000
- 14632 multiletter control sequences out of 15000+200000
+ 11418 strings out of 495198
+ 208783 string characters out of 3180954
+ 241212 words of memory out of 3000000
+ 14636 multiletter control sequences out of 15000+200000
  543392 words of font info for 70 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  41i,12n,45p,10400b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
-</home/mikael/.miktex/texmfs/insta
-ll/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/mikael/.miktex/texmfs/insta
-ll/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/mikael/.miktex/texmfs/insta
-ll/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/mikael/.miktex/texmfs/insta
-ll/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/mikael/.miktex/texmfs/instal
-l/fonts/type1/public/amsfonts/cm/cmmib10.pfb></home/mikael/.miktex/texmfs/insta
-ll/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></home/mikael/.miktex/texmfs/
-install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/mikael/.miktex/texmfs/i
-nstall/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/mikael/.miktex/texmfs/in
-stall/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/mikael/.miktex/texmfs/ins
-tall/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/mikael/.miktex/texmfs/insta
-ll/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/mikael/.miktex/texmfs/insta
-ll/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/mikael/.miktex/texmfs/instal
-l/fonts/type1/public/amsfonts/cm/cmti10.pfb></home/mikael/.miktex/texmfs/instal
-l/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on module3.pdf (6 pages, 181804 bytes).
+</home/mikael/.miktex/texmfs/install/fo
+nts/type1/public/amsfonts/cm/cmbx12.pfb></home/mikael/.miktex/texmfs/install/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb></home/mikael/.miktex/texmfs/install/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb></home/mikael/.miktex/texmfs/install/fo
+nts/type1/public/amsfonts/cm/cmmi7.pfb></home/mikael/.miktex/texmfs/install/fon
+ts/type1/public/amsfonts/cm/cmmib10.pfb></home/mikael/.miktex/texmfs/install/fo
+nts/type1/public/amsfonts/cmextra/cmmib7.pfb></home/mikael/.miktex/texmfs/insta
+ll/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/mikael/.miktex/texmfs/instal
+l/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/mikael/.miktex/texmfs/install
+/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/mikael/.miktex/texmfs/install/
+fonts/type1/public/amsfonts/cm/cmr7.pfb></home/mikael/.miktex/texmfs/install/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb></home/mikael/.miktex/texmfs/install/fo
+nts/type1/public/amsfonts/cm/cmsy7.pfb></home/mikael/.miktex/texmfs/install/fon
+ts/type1/public/amsfonts/cm/cmti10.pfb></home/mikael/.miktex/texmfs/install/fon
+ts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on module3.pdf (7 pages, 232691 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
+ 132 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

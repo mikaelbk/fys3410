@@ -9,6 +9,7 @@
 
 \author{Kandidatnummer: 15010}
 \title{FYS3410 - Module III}
+\date{April 28, 2018}
 
 \begin{document}
 \maketitle
@@ -112,6 +113,28 @@ Now we want an expression for the chemical potential where we can insert the res
 \end{align*}
 
 The assignment gave another hint as to how to find E; integrating the product of the density of states, fermi dirac distribution and energy. 
+\begin{align*}
+	E = \int_0^\infty DOS\cdot FDD\cdot \epsilon \\
+	E = \frac{V}{2\pi^2}\qty(\frac{2m_e}{\hbar^2})^{3/2}\frac{2}{5}\epsilon_F^{5/2}
+\end{align*}
+If we insert this back into the expression for the chemical potential we see that almost everything cancels out and we are left with
+\begin{equation}
+	\mu = \epsilon_F
+\end{equation}
+
+\newpage
+\subsection*{b)}
+
+With unitless variables this is what the fermi dirac distribution looks like. It does not match completely but is good approximation.
+
+\begin{figure}[H]
+	\includegraphics[width = 0.7\linewidth]{fdd.png}
+	\centering
+	\caption{The fermi dirac distribution for various temperatures}
+\end{figure}
+
+\subsection{c)}
+
 
 \newpage
 \section*{4. DOS in 1D \& 2D FEFG}
