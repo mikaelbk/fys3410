@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6700) (preloaded format=pdflatex 2018.4.16)  27 MAY 2018 22:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6700) (preloaded format=pdflatex 2018.4.16)  28 MAY 2018 02:28
 entering extended mode
 **./module3.tex
 (module3.tex
@@ -1685,33 +1685,41 @@ File: dos.png Graphic file (type png)
 Package pdftex.def Info: dos.png  used on input line 157. on input line 157.
 Package pdftex.def Info: Requested size: 241.49895pt x 184.47598pt on input lin
 e 157.
- [6 <./dos.png>] [7] (module3.aux) ) 
+ [6 <./dos.png>] [7]
+<alloy.pdf, id=89, pagebox=cropbox, 578.16pt x 433.62pt>
+File: alloy.pdf Graphic file (type pdf)
+<use alloy.pdf>
+Package pdftex.def Info: alloy.pdf  used on input line 188. on input line 188.
+Package pdftex.def Info: Requested size: 241.49895pt x 181.12006pt on input lin
+e 188.
+ [8 <./alloy.pdf>]
+[9] (module3.aux) ) 
 Here is how much of TeX's memory you used:
- 11423 strings out of 495198
- 208837 string characters out of 3180954
- 241212 words of memory out of 3000000
- 14640 multiletter control sequences out of 15000+200000
+ 11428 strings out of 495198
+ 208925 string characters out of 3180954
+ 242212 words of memory out of 3000000
+ 14644 multiletter control sequences out of 15000+200000
  543392 words of font info for 70 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  41i,12n,45p,10400b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
-</home/mikael/.miktex/texmfs/install/fonts/
-type1/public/amsfonts/cm/cmbx12.pfb></home/mikael/.miktex/texmfs/install/fonts/
-type1/public/amsfonts/cm/cmex10.pfb></home/mikael/.miktex/texmfs/install/fonts/
-type1/public/amsfonts/cm/cmmi10.pfb></home/mikael/.miktex/texmfs/install/fonts/
-type1/public/amsfonts/cm/cmmi7.pfb></home/mikael/.miktex/texmfs/install/fonts/t
-ype1/public/amsfonts/cm/cmmib10.pfb></home/mikael/.miktex/texmfs/install/fonts/
-type1/public/amsfonts/cmextra/cmmib7.pfb></home/mikael/.miktex/texmfs/install/f
-onts/type1/public/amsfonts/cm/cmr10.pfb></home/mikael/.miktex/texmfs/install/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb></home/mikael/.miktex/texmfs/install/fon
-ts/type1/public/amsfonts/cm/cmr17.pfb></home/mikael/.miktex/texmfs/install/font
-s/type1/public/amsfonts/cm/cmr7.pfb></home/mikael/.miktex/texmfs/install/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></home/mikael/.miktex/texmfs/install/fonts/
-type1/public/amsfonts/cm/cmsy7.pfb></home/mikael/.miktex/texmfs/install/fonts/t
-ype1/public/amsfonts/cm/cmti10.pfb></home/mikael/.miktex/texmfs/install/fonts/t
-ype1/public/amsfonts/symbols/msbm10.pfb>
-Output written on module3.pdf (7 pages, 321185 bytes).
+</home/mikael/.miktex/texmfs/install/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsf
+onts/cm/cmex10.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsf
+onts/cm/cmmi7.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfo
+nts/cm/cmmib10.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsf
+onts/cmextra/cmmib7.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/
+amsfonts/cm/cmr12.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/a
+msfonts/cm/cmr17.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/am
+sfonts/cm/cmr7.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsf
+onts/cm/cmsy7.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfo
+nts/cm/cmti10.pfb></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfo
+nts/symbols/msbm10.pfb>
+Output written on module3.pdf (9 pages, 333660 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
+ 155 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
